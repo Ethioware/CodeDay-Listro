@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Listro near me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="buttons">
+        <img src="logo.jpg" width="200"><img />
+        <a href="./home.html" class="button">Home</a>
+        <a href="./Book_listro.html" class="button">Book a Listro</a> </button>
+        <a href="./join.html" class="button">Join</a>
+        <a href="./our_team.html" class="button">Our team</a>
+    </div>
+    <h1> Listros Near Me</h1>
+    <img src="map.jpg"><img />
+
+    <div class="register">
+        <form class="container">
+            <h1>Register</h1>
+
+            <label for="first"><b>First name </b></label>
+            <input type="text" placeholder="Enter fisrt name" name="first" required>
+            <label for="Phone Number"><b> Phone Number </b></label>
+            <input type="text" placeholder="Enter Valid Phone Number" name="email" required>
+
+
+            <label for="id Number"><b>id Number</b></label>
+            <input type="text" placeholder="Enter id" name="id number" required>
+            <p>Which service do you want?
+            <p>
+                <input type="checkbox" name="Cleaning">
+                <label for="vehicle1"> Cleaning</label><br>
+                <input type="checkbox" name="Fixing">
+                <label for="vehicle2"> Fixing</label><br>
+                <input type="checkbox" name="Washing">
+                <label for="vehicle3"> Washing </label><br>
+            <p>Deposit 50 Br. to 1000368748</p>
+
+            <button type="button" class="btn" id="register_btn">Register</button>
+        </form>
+    </div>
+
+    <script>
+        const register = document.querySelector("#register_btn")
+
+        register.addEventListener("click", function () {
+            alert("Registered Succesfully!")
+        })
+    </script>
+</body>
+
+</html>

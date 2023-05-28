@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <title>Join</title>
+  <link rel="stylesheet" href="Join.css">
+
+</head>
+
+<body>
+  <div class="buttons">
+    <img src="logo.jpg" width="200"><img />
+    <a href="./home.html" class="button">Home</a>
+    <a href="./Book_listro.html" class="button">Book a Listro</a> </button>
+    <a href="./join.html" class="button">Join</a>
+    <a href="./our_team.html" class="button">Our team</a>
+  </div>
+
+  <div class="bg-img">
+    <form class="container">
+      <h1>Join!</h1>
+      <label for="first"><b>First name </b></label>
+      <input type="text" placeholder="Enter fisrt name" name="first" required>
+      <label for="last"><b>Last name </b></label>
+      <input type="text" placeholder="Enter Last name" name="last" required>
+      <label for="Phone Number"><b> Phone Number </b></label>
+      <input type="text" placeholder="Enter Valid Phone Number" name="email" required>
+
+
+      <label for="id Number"><b>id Number</b></label>
+      <input type="text" placeholder="Enter id" name="id number" required>
+      <p>Deposit 50 Br. to 1000368748</p>
+
+      <button type="submit" class="btn" id="join_btn"> Join</button>
+    </form>
+  </div>
+  <script>
+    const join = document.querySelector("#join_btn")
+
+    join.addEventListener("click", function () {
+      alert("Joined Succesfully!")
+    })
+  </script>
+
+  <h1> Become part of a bigger team </h1>
+
+</body>
+
+</html>
